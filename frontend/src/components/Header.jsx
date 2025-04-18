@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="flex flex-col md:flex-row flex-wrap bg-primary rounded-lg px-6 md:px-10 lg:px-20">
         {/* left side */}
-        <div className='md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[9.7vw] md:mb-[-14px]'>
+        <div className='md:w-1/2 flex flex-col items-start h-[520px] justify-center gap-4 py-10 m-auto md:py-[9.7vw] md:mb-[-14px]'>
             <p className='text-3xl text-center md:text-start md:text-4xl lg:text-5xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight'>Book Appointment <br/> With Trusted Doctors</p>
             <div className='flex flex-col md:flex-row gap-3 text-white text-sm font-light items-center'>
                 <img src={assets.group_profiles} alt='' className=' w-28'/>
