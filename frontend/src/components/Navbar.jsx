@@ -12,7 +12,7 @@ const Navbar = () => {
       </Link>
       <ul className="hidden md:flex items-start gap-5 font-medium">
         <NavLink to="/">
-          <li className="py-1">Home</li>
+          <li className="py-1">HOME</li>
           <hr className="hidden border-none outline-none bg-primary h-0.5 w-3/5 m-auto" />
         </NavLink>
         <NavLink to="/doctors">
